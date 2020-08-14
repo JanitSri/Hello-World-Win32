@@ -98,7 +98,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     }
 
     // function performs the default action for the message
-    // pass message parameters to this function when you do not want to handle a particular message in 
-    // the window procedure
+    // pass message parameters to this function when you do not want to handle a particular message in the window procedure
     return DefWindowProc(hwnd, uMsg, wParam, lParam);
 }
